@@ -1,6 +1,6 @@
 # MANO
 A pytorch Implementation of MANO hand model
-
+(from otaheri, only change the part of setting use_pca to False by default when num_pca_comps=45)
 # Description
 
 This is a pytorch implementation of [MANO](https://mano.is.tue.mpg.de/) hand model loader. The code is based on [smplx](https://github.com/vchoutas/smplx) package by [Vassilis Choutas](https://ps.is.tuebingen.mpg.de/person/vchoutas).
