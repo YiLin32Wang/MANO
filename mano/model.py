@@ -238,8 +238,8 @@ class MANO(nn.Module):
 
         self.use_pca = use_pca
         self.num_pca_comps = num_pca_comps
-        if self.num_pca_comps ==45:
-            self.use_pca = False
+        # if self.num_pca_comps ==45:
+        #     self.use_pca = False
         self.flat_hand_mean = flat_hand_mean
 
         hand_components = data_struct.hands_components[:num_pca_comps]
